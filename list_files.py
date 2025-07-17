@@ -14,8 +14,9 @@ ws.append(["File Name"])
 
 # loop through files in dir
 for filename in os.listdir(directory_path):
-    # Check if it is a file
-    if os.path.isfile(os.path.join(directory_path, filename)):
+    filename_path = os.path.join(directory_path, filename)
+     # Include files and directories
+    if os.path.isfile(filename_path) or os.path.isdir(filename_path):
         ws.append([filename])
         
 # save excel file
