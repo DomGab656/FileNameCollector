@@ -1,1 +1,1 @@
-Script collects file names from specified directory and saves them into an excel file
+Diese einfache Script in Python holt die namen aller files in einem angegebenen Pfad und speichert diese in einem Excel Datei.
